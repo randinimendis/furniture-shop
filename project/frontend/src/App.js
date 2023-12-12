@@ -4,9 +4,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //import React, { useState } from 'react';
 //import Register from "./components/UserManagement/register";
 import Home from "./components/Home";
+import Footer from "./components/inc/footer";
+import Header from './components/inc/header';
 
 
 //import DeliveryManagament from "./components/DeliveryManagement/DeliveryManagament";
+
 
 function App() {
   //const isLoggedIn = localStorage.getItem("loggedIn");
@@ -38,7 +41,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/**<Header /> */}
+     <Header /> 
 
       <Routes>
       
@@ -47,6 +50,7 @@ function App() {
       </Routes>
 
       {/** <Footer />*/}
+      <Footer/>
     </BrowserRouter>
   );
 }
