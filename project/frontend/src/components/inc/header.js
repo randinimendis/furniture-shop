@@ -35,7 +35,7 @@ export default function Header() {
 
         <div className="collapse navbar-collapse">
           <Link to="/" className="text-decoration-none">
-            <h3 className="fw-bold logo-name ">FURNITURE SHOP</h3>
+            <h3 className="fw-bold logo-name ">FURNITURE SHOP </h3>
           </Link>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item ml-5"> 
